@@ -1,0 +1,7 @@
+{
+  "keystring": "YOUR_ETSY_KEYSTRING",
+  "sharedSecret": "YOUR_ETSY_SHARED_SECRET",
+  "shopId": 12345678,
+  "redirectUri": "http://localhost:3003/oauth/redirect",
+  "scopes": "listings_w listings_r shops_r"
+}

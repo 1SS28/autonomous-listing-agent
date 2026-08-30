@@ -1,0 +1,10 @@
+{
+  "environment": "sandbox",
+  "appId": "YOUR_EBAY_APP_ID_CLIENT_ID",
+  "certId": "YOUR_EBAY_CERT_ID_CLIENT_SECRET",
+  "ruName": "YOUR_RUNAME_STRING",
+  "marketplaceId": "EBAY_CA",
+  "contentLanguage": "en-CA",
+  "currency": "CAD",
+  "scopes": "https://api.ebay.com/oauth/api_scope https://api.ebay.com/oauth/api_scope/sell.inventory https://api.ebay.com/oauth/api_scope/sell.account"
+}

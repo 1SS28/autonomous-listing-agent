@@ -1,0 +1,15 @@
+{
+  "name": "openclaw-etsy-skill",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Local MCP server + one-time OAuth setup so an OpenClaw agent can create, review, and publish Etsy listings for one shop.",
+  "scripts": {
+    "authorize": "node etsy-authorize.js",
+    "start": "node etsy-mcp-server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "latest",
+    "zod": "latest"
+  }
+}

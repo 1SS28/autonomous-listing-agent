@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+
+# Live marketplace configuration and OAuth tokens
+**/ebay-config.json
+**/ebay-tokens.json
+**/etsy-config.json
+**/etsy-tokens.json
+**/image-host.json
+
+# Environment files and private keys
+.env
+.env.*
+*.pem
+*.key
+*.p12
+
+# OpenClaw runtime data
+.openclaw/
+credentials/
+identity/
+logs/
+memory/
+media/
+state/
+mcp-oauth/
+
+# Local output and operating-system files
+tmp/
+dist/
+*.log
+.DS_Store
+Thumbs.db
+

@@ -1,0 +1,15 @@
+{
+  "name": "openclaw-ebay-skill",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Local MCP server + one-time OAuth setup so an OpenClaw agent can create, review, and publish eBay listings.",
+  "scripts": {
+    "authorize": "node ebay-authorize.js",
+    "start": "node ebay-mcp-server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "latest",
+    "zod": "latest"
+  }
+}

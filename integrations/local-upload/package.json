@@ -1,0 +1,11 @@
+{
+  "name": "openclaw-upload-skill",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Local MCP server that uploads a local file to a presigned URL using Node's own fetch, bypassing exec/curl entirely.",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "latest",
+    "zod": "latest"
+  }
+}
