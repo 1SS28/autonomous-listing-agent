@@ -1,6 +1,6 @@
 # Autonomous Marketplace Listing Agent
 
-This project connects an OpenClaw agent to eBay, Etsy, and a small local file-transfer service. A user can send a product photo through the agent, generate cleaner product images, prepare marketplace listing data, review the result, and publish only after the appropriate approval step.
+This project connects an OpenClaw agent to eBay, Etsy, and a small local file-transfer service. A user can send a product photo through the agent, generate cleaner product images, prepare marketplace listing data, review the result, and publish.
 
 The repository contains three custom MCP integrations built for the project. OpenClaw provides the agent runtime and Telegram interface. Magic Hour provides image generation. Those external systems are not copied into this repository.
 
